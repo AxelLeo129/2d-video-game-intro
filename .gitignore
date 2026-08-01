@@ -1,0 +1,91 @@
+# =============================================================
+# Unity 6 (URP 2D) — .gitignore
+# =============================================================
+
+# Carpetas generadas por Unity
+# (mayúscula/minúscula duplicada: Unity las crea de ambas formas
+#  según la plataforma y la versión del editor)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Caché de Asset Store Tools
+/[Aa]ssets/AssetStoreTools*
+
+# Caché de paquetes locales / Package Manager
+/[Aa]ssets/[Pp]lugins/[Ee]ditor/JetBrains*
+/[Ll]ocal[Pp]ackages/
+
+# =============================================================
+# IDEs y editores
+# =============================================================
+
+# Visual Studio / Rider — proyectos y soluciones regenerables
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+/.vs/
+/.idea/
+/.vscode/
+!/.vscode/extensions.json
+
+# Rider
+*.DotSettings.user
+
+# =============================================================
+# Builds y artefactos
+# =============================================================
+
+# Ejecutables y librerías compiladas fuera de Assets
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# Crashlytics / símbolos de Android
+crashlytics-build.properties
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Addressables (si se añaden más adelante)
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+/[Ss]erver[Dd]ata/
+
+# =============================================================
+# Sistema operativo
+# =============================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =============================================================
+# Notas
+# =============================================================
+# Los archivos .meta SÍ deben versionarse: Unity los usa para
+# mantener las referencias entre assets (GUIDs). No los ignores.
